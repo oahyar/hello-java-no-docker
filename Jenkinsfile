@@ -23,7 +23,7 @@ pipeline {
           set -e
           OUT=$(java -cp build Hello)
           echo "Output: $OUT"
-          test "$OUT" = "Hello, Jenkins!"
+          test "$OUT" = "Hello, Jenkins! I think it works!"
         '''
       }
     }
